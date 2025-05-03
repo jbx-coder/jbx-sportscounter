@@ -1,0 +1,198 @@
+@media (max-aspect-ratio: 100/40){
+    #body{
+        background-color:lightgray;
+        display:flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    #blue{
+        height: 28vw;
+        width: 30vw;
+        background-color:blue;
+        font-size: 15vw;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 2vw;    
+        float: left;
+    }
+    #red{
+        height: 28vw;
+        width: 30vw;
+        background-color:red;
+        font-size: 15vw;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 2vw;
+        
+        float: left;
+    }
+    #box2{
+        
+        width: 60vw;
+        height: 28vw;
+        float: left;
+    }
+
+    #bluepoint{
+        height: 10vw;
+        width: 20vw;
+        background-color:blue;
+        font-size: 6vw;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 1vw;    
+        float: left;
+    }
+
+    #redpoint{
+        height: 10vw;
+        width: 20vw;
+        background-color:red;
+        font-size: 6vw;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 1vw;    
+        float: left;
+    }
+    #box1{
+        width: 60vw;
+        height: 10vw;
+        
+        float: left;
+    }
+    .box3{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+        
+        float: left;
+    }
+    #clear{
+        width: 8vw;
+        height: 8vw;
+        position: relative;
+        top: 1vw;
+        left: 1vw;
+        border-radius: 1vw;
+        background-color: yellow;
+        font-size: 3vw;
+        
+    }
+    #back{
+        width: 8vw;
+        height: 8vw;
+        position: relative;
+        top: 1vw;
+        left: 1vw;
+        border-radius: 1vw;
+        background-color: yellow;
+        font-size: 3vw;
+    }
+    .box{
+        width: 60vw;
+        height: 40vw; 
+    }
+}
+
+@media (min-aspect-ratio: 100/40){
+    #body{
+        background-color:lightgray;
+        display:flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    #blue{
+        height: 70vh;
+        width: 75vh;
+        background-color:blue;
+        font-size: 37.5vh;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 5vh;    
+        float: left;
+    }
+    #red{
+        height: 70vh;
+        width: 75vh;
+        background-color:red;
+        font-size: 37.5vh;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 5vh;    
+        float: left;
+    }
+    #box2{
+        
+        width: 150vh;
+        height: 70vh;
+        float: left;
+    }
+
+    #bluepoint{
+        height: 25vh;
+        width: 50vh;
+        background-color:blue;
+        font-size: 15vh;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 2.5vh;    
+        float: left;
+    }
+
+    #redpoint{
+        height: 25vh;
+        width: 50vh;
+        background-color:red;
+        font-size: 15vh;
+        color:white;
+        display: grid;
+        place-items: center;
+        border-radius: 2.5vh;    
+        float: left;
+    }
+    #box1{
+        width: 150vh;
+        height: 25vh;
+        
+        float: left;
+    }
+    .box3{
+        width: 25vh;
+        height: 25vh;
+        position: relative;
+        
+        float: left;
+    }
+    #clear{
+        width: 20vh;
+        height: 20vh;
+        position: relative;
+        top: 2.5vh;
+        left: 2.5vh;
+        border-radius: 2.5vh;
+        background-color: yellow;
+        font-size: 7.5vh;
+        
+    }
+    #back{
+        width: 20vh;
+        height: 20vh;
+        position: relative;
+        top: 2.5vh;
+        left: 2.5vh;
+        border-radius: 2.5vh;
+        background-color: yellow;
+        font-size: 7.5vh;
+    }
+    .box{
+        width: 150vh;
+        height: 100vh; 
+    }
+}

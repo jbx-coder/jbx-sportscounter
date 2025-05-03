@@ -1,0 +1,19 @@
+.link{
+    width: 30vw;
+    height:30vh;
+    border-radius: 1vw 1vw 0vw 1vw;
+    font-size: 12vh;
+    position: relative;
+    left: 9.5vw;
+    top: 9wh;
+}
+.box{
+    width: 98vw;
+    height: 96vh;
+}
+.block{
+    width: 49vw;
+    height: 48vh;
+    float: left;
+
+}
